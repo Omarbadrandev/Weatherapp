@@ -2,7 +2,7 @@ import React, { SyntheticEvent } from "react";
 import TextField from "@mui/material/TextField";
 import Autocomplete from "@mui/material/Autocomplete";
 import { CircularProgress } from "@mui/material";
-import { Feature } from "../types/AutoCompleteLocations";
+import { Feature } from "../types/AutoCompleteLocation";
 import { AxiosError } from "axios";
 
 //AutoComplete was developed using the Material UI Autocomplete API https://mui.com/api/autocomplete/
@@ -31,7 +31,7 @@ export default function CityAutoComplete(props: CityAutoCompleteProps) {
   return (
     <Autocomplete
       id="City-select"
-      sx={{ width: 300 }}
+      sx={{ minWidth: 300 }}
       options={options || []}
       autoHighlight
       onChange={onSelectionChange}

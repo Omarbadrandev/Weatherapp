@@ -4,8 +4,9 @@ import storage from 'redux-persist/lib/storage';
 // definitions are written here because I learned Redux through the task ;) 
 // Redux: A container where you can store whole application data,
 //it is called to state management
-// Redux is most useful in cases when:
 
+
+// Redux is most useful in cases when:
 // You have large amounts of application state that are needed in many places in the app
 // The app state is updated frequently
 // The logic to update that state may be complex
