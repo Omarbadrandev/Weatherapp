@@ -55,16 +55,18 @@ const Home = (): JSX.Element => {
       {weatherDataLoading ? (
         <LinearProgress />
       ) : (
-        <WeatherDescription
-          error={weatherDataError}
-          temprature={weatherData?.main.temp}
-          feelsLike={weatherData?.main.feels_like}
-          pressure={weatherData?.main.pressure}
-          tempMax={weatherData?.main.temp_min}
-          tempMin={weatherData?.main.temp_max}
-          humidity={weatherData?.main.humidity}
-          cityName={weatherData?.name}
-        />
+        weatherData && (
+          <WeatherDescription
+            error={weatherDataError}
+            temprature={weatherData?.main.temp}
+            feelsLike={weatherData?.main.feels_like}
+            pressure={weatherData?.main.pressure}
+            tempMax={weatherData?.main.temp_min}
+            tempMin={weatherData?.main.temp_max}
+            humidity={weatherData?.main.humidity}
+            cityName={weatherData?.name}
+          />
+        )
       )}
     </Box>
   );
