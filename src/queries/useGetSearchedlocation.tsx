@@ -30,7 +30,7 @@ export function useGetAutoCompleteLocation(props: Props) {
       retry: false, //disabling retry on error only to show the error message directly to the user,because the query only transitions to error state when the retries are done.
       refetchOnMount: true,
       onSuccess: () => {
-        console.log("Location success");
+        "Location success";
       },
       onError: (error) => {
         //https://tkdodo.eu/blog/react-query-error-handling

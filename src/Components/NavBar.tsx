@@ -7,7 +7,6 @@ import WbSunnyIcon from "@mui/icons-material/WbSunny";
 import CloudIcon from "@mui/icons-material/Cloud";
 //APP Bar developed using :
 //https://mui.com/components/app-bar/
-
 export default function NavBar() {
   return (
     <Box sx={{ flexGrow: 1 }}>
