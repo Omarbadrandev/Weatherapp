@@ -1,7 +1,7 @@
 import axios, { AxiosError } from "axios";
 import { useQuery } from "react-query";
 import { LocationKey } from "../Constants";
-import { AutocompleteLocations } from "../types/AutoCompleteLocation";
+import { AutocompleteLocations } from "../types/AutoCompleteLocationTypes";
 
 //https://react-query.tanstack.com/reference/useQuery
 //all hooks are generated with instruction from the library documentation://https://react-query.tanstack.com/reference/useQuery

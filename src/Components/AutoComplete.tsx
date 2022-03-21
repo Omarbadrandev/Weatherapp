@@ -2,7 +2,7 @@ import React, { SyntheticEvent } from "react";
 import TextField from "@mui/material/TextField";
 import Autocomplete from "@mui/material/Autocomplete";
 import { CircularProgress } from "@mui/material";
-import { Feature } from "../types/AutoCompleteLocation";
+import { Feature } from "../types/AutoCompleteLocationTypes";
 import { AxiosError } from "axios";
 
 //AutoComplete was developed using the Material UI Autocomplete API https://mui.com/api/autocomplete/

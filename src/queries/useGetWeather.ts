@@ -2,7 +2,7 @@ import axios, { AxiosError } from "axios";
 import { useQuery } from "react-query";
 import { openWeatherMapBaseURL, WeatherKey } from "../Constants";
 import store from "../store";
-import { Weather } from "../types/Weather";
+import { Weather } from "../types/WeatherAPITypes";
 
 export function useGetWeather() {
   const coordinates = store.getState().value;

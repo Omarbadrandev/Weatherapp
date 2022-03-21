@@ -4,7 +4,7 @@ import { connect } from "react-redux";
 import { useGetWeather } from "../queries/useGetWeather";
 import { useGetAutoCompleteLocation } from "../queries/useGetSearchedlocation";
 import store from "../store";
-import { Feature } from "../types/AutoCompleteLocation";
+import { Feature } from "../types/AutoCompleteLocationTypes";
 import CitySelect from "./AutoComplete";
 import WeatherDescription from "./WeatherDescription";
 
