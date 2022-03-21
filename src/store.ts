@@ -13,7 +13,7 @@ import storage from 'redux-persist/lib/storage';
 // The app has a medium or large-sized codebase, and might be worked on by many people
 // You need to see how that state is being updated over time
 
-// thats why maybe redux is not a good choice to use for a small application like this one, 
+// thats why maybe redux is not a good choice to use for a small application, 
 // but in this case the state will be updated frequently and should be saved in the persistStore to solve the problem of persisting state when page reload.
 
 //ways to Persist state between pages reload:
@@ -21,7 +21,6 @@ import storage from 'redux-persist/lib/storage';
 //1. Using LocalStorage
 //2. Using URL Params
 //3. Using Redux Persist 'which am using here'
-
 interface CityLocationState{
     type:string,
     value:Array<number> | undefined
