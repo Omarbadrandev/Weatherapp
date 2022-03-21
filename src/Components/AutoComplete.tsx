@@ -42,6 +42,13 @@ export default function CityAutoComplete(props: CityAutoCompleteProps) {
       }
       loadingText="it is loading ..."
       onInputChange={onCityInputChange}
+      renderOption={(props, option) => {
+        return (
+          <li {...props} key={option.properties.place_id}>
+            {option.properties.city}/{option.properties.country}
+          </li>
+        );
+      }}
       renderInput={(params) => (
         <TextField
           {...params}
