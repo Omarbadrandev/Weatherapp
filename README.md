@@ -2,6 +2,10 @@
 
 an application which allows the user to get all the information of the weather in a selected city 
 
+### `API used in this Project`
+1. The [OpenWeatherMap](https://openweathermap.org/) API
+2. The [GeoapifyLocationPlatform] (https://www.geoapify.com/) API
+
 ### `npm start`
 
 Runs the app in the development mode.\
@@ -20,7 +24,5 @@ Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
 
-### `API used in this Project`
-1. The [OpenWeatherMap](https://openweathermap.org/) API
-2. The [GeoapifyLocationPlatform] (https://www.geoapify.com/) API
+
 
